@@ -1,0 +1,28 @@
+2024-06-21 08:56:38,549 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Starting SpringRestdemoApplication using Java 17.0.10 with PID 22372 (C:\Users\shakthi\Desktop\AlbumHub application\backend\target\classes started by shakthi in C:\Users\shakthi\Desktop\AlbumHub application\backend)
+2024-06-21 08:56:38,556 [DEBUG] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Running with Spring Boot v3.0.1, Spring v6.0.3
+2024-06-21 08:56:38,558 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-21 08:56:40,502 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 08:56:40,609 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2024-06-21 08:56:41,529 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-21 08:56:41,550 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-06-21 08:56:41,551 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2024-06-21 08:56:41,716 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-21 08:56:41,717 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3048 ms
+2024-06-21 08:56:41,863 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-21 08:56:42,253 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./db/db user=ADMIN
+2024-06-21 08:56:42,255 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-21 08:56:42,277 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/db-console'. Database available at 'jdbc:h2:file:./db/db'
+2024-06-21 08:56:42,517 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 08:56:42,624 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2024-06-21 08:56:42,923 [WARN] org.hibernate.orm.deprecation [main] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-06-21 08:56:43,127 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 08:56:44,282 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 08:56:44,294 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 08:56:45,548 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 08:56:46,845 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 08:56:46,958 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@951053f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e196238, org.springframework.security.web.context.SecurityContextHolderFilter@6ebf5f26, org.springframework.security.web.header.HeaderWriterFilter@2e10f765, org.springframework.security.web.authentication.logout.LogoutFilter@3a70acd5, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@37bac0f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3524ee20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4690a37e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f45be6f, org.springframework.security.web.session.SessionManagementFilter@481b8d53, org.springframework.security.web.access.ExceptionTranslationFilter@58e2af93, org.springframework.security.web.access.intercept.AuthorizationFilter@73f6ffb1]
+2024-06-21 08:56:47,590 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-21 08:56:47,613 [INFO] org.studyeasy.SpringRestdemo.SpringRestdemoApplication [main] Started SpringRestdemoApplication in 9.597 seconds (process running for 10.27)
+2024-06-21 08:56:50,346 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-21 08:56:50,347 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2024-06-21 08:56:50,350 [INFO] org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 2 ms
